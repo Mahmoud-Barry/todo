@@ -1,0 +1,36 @@
+
+.buttons {
+  padding: 5px;
+}
+.button {
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+.complete {
+  background-color: #4caf50; 
+}
+.remove {
+  background-color: #f44336;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
